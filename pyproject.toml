@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "auto_smart_commit"
+version = "0.1.0"
+description = "pre-commit hook designed to parse out the jira key from a git branch and add it into the commit message"
+authors = ["Your Name <you@example.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.dev-dependencies]
+pylama = "^7.7.1"
+pylint = "^2.4.4"
+pyflakes = "2.4.0"
+pytest = "^6.1.3"
+pycodestyle = "^2.6.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
