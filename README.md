@@ -1,4 +1,4 @@
-## Auto Jira smart commit
+# Auto Jira smart commit
 
 This [pre-commit](https://pre-commit.com/) hook transforms your Git commit messages into [Jira smart commits](https://confluence.atlassian.com/fisheye/using-smart-commits-960155400.html).
 
